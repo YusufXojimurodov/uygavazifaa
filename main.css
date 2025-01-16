@@ -1,0 +1,107 @@
+body {
+    background-color: #111111;
+}
+
+.container {
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.lorem {
+    width: 856px;
+    font-size: 27px;
+    margin: 80 auto;
+    color: white;
+}
+
+.lorem-2 {
+    width: 856px;
+    font-size: 27px;
+    margin: 0;
+    color: white;
+}
+
+.box-father {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 120px;
+}
+
+.uslug {
+    font-size: 30px;
+    color: white;
+}
+
+.box-img:hover {
+    box-shadow: 5px 3px 15px #CDAA7D;
+    width: 420px;
+    height: 324px;
+    border-radius: 10px;
+    transition: 600ms ease;
+}
+
+.box-father2 {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 60px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 152px;
+    margin-top: 186px;
+}
+
+.image-box-father {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 55px;
+}
+
+.rabota {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 168px;
+    color: white;
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ull {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 80px;
+    color: white;
+}
+
+.rabota-ul {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.rabota-ul:hover {
+    color: #CDAA7D;
+    transition: 350ms ease;
+    border: 2px solid #CDAA7D;
+    padding: 5px;
+}
